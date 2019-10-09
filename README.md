@@ -1,6 +1,7 @@
 # Đồ án Simple Shell-
 Sinh viên thực hiện: 
 Nguyễn Thanh Trí -  1612722
+Lê Minh Trí - 1612730
 
 Đồ án này bao gồm thiết kế chương trình C một giao diện shell chấp nhận các lệnh của người dùng và sau đó thực thi mỗi lệnh trong một quy trình riêng biệt. Đồ án liên quan đến việc sử dụng các lệnh gọi hệ thống UNIX fork (), exec (), Wait (), dup2 () và pipe () và được hoàn thành trên hệ thống Linux.
 Các lệnh cơ bản để giao tiếp với shell: 
@@ -8,7 +9,7 @@ Các lệnh cơ bản để giao tiếp với shell:
 - In ra danh sách các file có trong thư mục hiện hành
 
 2. ls -l 
-- In ra đầy đủ thông tin của các file có trong thư mục hiện hành.
+- In ra đầy đủ thông tin của các file( hành động,thời gian sửa đổi,tài khoản người dùng,...) có trong thư mục hiện hành.
 
 3. pwd
 - In ra ngoài màn hình đường dẫn của thư mục đang hoạt động.
